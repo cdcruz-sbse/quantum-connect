@@ -264,7 +264,7 @@ function render() {
           <span>🎯</span>
           <h3>My Goals</h3>
         </div>
-        <button class="section-header__action" onclick="openLink('/goals')">View All →</button>
+        <button class="section-header__action" onclick="openLink('/goals')"><a href ="https://identity.quantumworkplace.com/Account/Login" target="_blank">View All →</a></button>
       </div>
       ${d.goals.map(g => `
         <div class="row-item" onclick="openLink('/goals/${g.id}')">
@@ -293,7 +293,7 @@ function render() {
           <span>📝</span>
           <h3>Feedback</h3>
         </div>
-        <button class="section-header__action" onclick="openLink('/feedback')">Give Feedback →</button>
+        <button class="section-header__action" onclick="openLink('/feedback')"><a href ="https://identity.quantumworkplace.com/Account/Login" target="_blank">Give Feedback →</a></button>
       </div>
       ${d.feedback.map(f => `
         <div class="row-item" onclick="openLink('/feedback/${f.id}')">
